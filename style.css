@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#timer {
+  background-color: #f9f9f9;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#leaderboard {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#leaderboard th, #leaderboard td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#leaderboard tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
